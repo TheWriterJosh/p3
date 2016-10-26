@@ -40,7 +40,7 @@ class RandomUserController extends Controller
       ]);
       $num_users = $request->input('usernames');
       for ($x = 1; $x <= $num_users; $x++) {
-        //package code
+        // code from random name generator package
         $generator = new \Nubs\RandomNameGenerator\Alliteration();
         echo $generator->getName()."<br />";
       }

@@ -40,7 +40,7 @@ class LoremIpsumController extends Controller
       ]);
       $num_par = $request->input('paragraphs');
 
-      //package code
+      // code from BadCow lorem ipsum generator
       $generator = new \Badcow\LoremIpsum\Generator();
       $paragraphs = $generator->getParagraphs($num_par);
       echo implode('<p>', $paragraphs);

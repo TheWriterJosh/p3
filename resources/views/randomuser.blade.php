@@ -15,6 +15,6 @@
               <p>{{ $error }}</p>
           @endforeach
       @endif
-      <a href="/">Go home.</a>
+      <a href="/">Go home!</a>
     </body>
 </html>
